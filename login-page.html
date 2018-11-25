@@ -52,7 +52,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Login as : {{name}}@{{ email }}
+              <i class="material-icons">cloud_download</i> Login as : {{ email }}
             </a>
           </li>
           <!-- <li class="nav-item">
@@ -135,42 +135,43 @@
     </div>
 
     
-    <footer class="footer">
-      <div class="container">
-        <nav class="float-left">
-          <ul>
-            <li>
-              <a href="https://www.creative-tim.com">
-                Creative Tim
-              </a>
-            </li>
-            <li>
-              <a href="https://creative-tim.com/presentation">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="http://blog.creative-tim.com">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href="https://www.creative-tim.com/license">
-                Licenses
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="copyright float-right">
-          &copy;
-          <script>
-            document.write(new Date().getFullYear())
-          </script>, made with <i class="material-icons">favorite</i> by
-          <a href="https://www.repl.it/@accalina" target="_blank">Accalina</a> Jakarta Techo Solution.
-        </div>
-      </div>
-    </footer>
+    
   </div>
+  <footer class="footer">
+    <div class="container">
+      <nav class="float-left">
+        <ul>
+          <li>
+            <a href="https://www.creative-tim.com">
+              Creative Tim
+            </a>
+          </li>
+          <li>
+            <a href="https://creative-tim.com/presentation">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="http://blog.creative-tim.com">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="https://www.creative-tim.com/license">
+              Licenses
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright float-right">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear())
+        </script>, made with <i class="material-icons">favorite</i> by
+        <a href="https://www.repl.it/@accalina" target="_blank">Accalina</a> Jakarta Techo Solution.
+      </div>
+    </div>
+  </footer>
 
   <template v-html="resultFinal"></template>
 
